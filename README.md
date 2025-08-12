@@ -9,10 +9,8 @@ Learn how to recycle plastic, glass, paper, metal, and electronic waste. Protect
 <title>♻️ Geri Dönüşüm Rehberi</title>
 
 <style>
-  /* Google Fonts: Baloo 2 */
   @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
-  /* Reset ve temel */
   * {
     box-sizing: border-box;
   }
@@ -21,10 +19,10 @@ Learn how to recycle plastic, glass, paper, metal, and electronic waste. Protect
     font-family: 'Baloo 2', cursive, Arial, sans-serif;
     background: linear-gradient(135deg, #a8edea, #fed6e3);
     color: #2c3e50;
-    text-align: center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   header {
     background: #27ae60;
@@ -39,33 +37,21 @@ Learn how to recycle plastic, glass, paper, metal, and electronic waste. Protect
     flex: 1;
     max-width: 960px;
     margin: 2rem auto 3rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.8rem;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
     padding: 0 1rem;
   }
   .card {
     background: #ffffffdd;
     border-radius: 20px;
     box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-    width: 200px;
-    padding: 1.5rem 1.2rem;
-    cursor: pointer;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    padding: 1.8rem 1.4rem;
     user-select: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
   }
   .card:hover {
-    transform: translateY(-8px) scale(1.07);
-    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
-  }
-  .card img {
-    width: 85px;
-    height: 85px;
-    margin-bottom: 1.2rem;
-    filter: drop-shadow(1px 1px 2px rgba(0,0,0,0.2));
-  }
-  .card h
+    transform: tra
