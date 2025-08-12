@@ -1,5 +1,6 @@
 # my-first-website
 Learn how to recycle plastic, glass, paper, metal, and electronic waste. Protect nature, use resources efficiently, and contribute to a cleaner environment with proper recycling methods.
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
